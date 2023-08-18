@@ -1,0 +1,25 @@
+{
+  "name": "stacks-oracle",
+  "scripts": {
+    "format-check": "npx prettier --single-quote --no-semi --check ./**.js",
+    "format": "npx prettier --single-quote --no-semi --write ./**.js"
+  },
+  "bin": {
+    "stacks-oracle": "./app.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@stacks/keychain": "^4.3.8",
+    "@stacks/transactions": "^6.5.4",
+    "axios": "^1.4.0",
+    "bip39": "^3.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "luxon": "^3.3.0",
+    "node-cron": "^3.0.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
