@@ -18,7 +18,8 @@ imports lacking the file extension fail in the build Docker image.
  To run the app, do:
 `./app.js`
 which will run a server on localhost:3000
-
+Data is stored on the following smart contract:
+`https://explorer.hiro.so/txid/SP33GR3CR64A89322ZKDN8G0HR4NER2G4PENJP6KS.daily-yield-rate?chain=mainnet`
 The API has 2 endpoints: 
 `'/'` which returns the rate from the smart contract
 `'/fetch-rate'` which scrapes the rate from the source site and returns the rate
