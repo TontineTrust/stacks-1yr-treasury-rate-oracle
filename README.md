@@ -1,4 +1,5 @@
 # Stacks Oracle
+Deployed on: `https://tontinetrust-stacks-oracle.azurewebsites.net/`
 
 ## Setup
 Make sure to have Node.js installed (or use the version from [[../shell.nix]]),
