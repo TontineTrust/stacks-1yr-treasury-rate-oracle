@@ -31,3 +31,4 @@ Use `./gen-nix.sh && ./test-build.sh` to check that building the Docker image wo
 See the comment in `docker.nix` for how to jump into a shell inside a Stacks
 Oracle Docker container. This can be useful if a deployed image is failing, so
 you can download the image and investigate.
+"# stacks-1yr-treasury-rate-oracle" 
